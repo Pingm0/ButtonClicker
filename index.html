@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ButtonClicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dojonary</h1>
+            <input type="text" name="search" id="search ">
+            <button id="login" onclick="logout(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="wordList">
+                    <div class="word">
+                        <div class="lSide">
+                            <div>
+                            <h2>ninja</h2>
+                            <p>noun</p>
+                            </div>
+                            <div>
+                                Plural: ninjas
+                            </div>
+                            <button class="like" onclick="btnLike(this)">13 likes</button>
+                        </div>
+                        <div class="rSide">
+                        <p>A practitioner skilled in the <br> <a href="#">Japanese</a>  art of  <a href="#">ninjutsu</a> </p>
+                        </div>
+                    </div>
+                    <div class="word">
+                        <div class="lSide">
+                            <div>
+                            <h2>ninja</h2>
+                            <p>noun</p>
+                            </div>
+                            <div>
+                                Plural: ninjas
+                            </div>
+                            <button class="like" onclick="btnLike(this)">37 likes</button>
+                        </div>
+                        <div class="rSide">
+                        <p>A <a href="#">programmer</a> who breaks<br>down problems with  <a href="#">zen</a>-like <br> foucus </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="addDef">
+                <h3>Dojonary is  <br> defined by <span>You</span></h3>
+                <button class="def" onclick="hideBtn(this)"> Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

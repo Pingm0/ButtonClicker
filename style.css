@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin:auto;
+    width: 960px;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+.header {
+    margin: auto;
+    padding: 15px;
+    background: rgb(204, 204, 204);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header input{
+    width: 40%;
+}
+
+#login {
+    background: rgb(42, 120, 228) ;
+    width: 10%;
+    height: 30%;
+    padding: 3px 0;
+}
+ /* Main section */
+
+.main {
+    width: 83%;
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.wordList {
+    width: 70%;
+
+}
+.word {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: black 1px solid;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.lSide {
+    padding: 3px;
+    margin-left: 3px;
+    margin-right: 25px;
+    
+}
+
+.lSide * {
+    margin-bottom: 5px;
+}
+
+.like {
+    background-color:rgb(255, 217, 102) ;
+    padding: 5px 10px;
+    margin-top: 5px;
+    box-shadow: 5px 3px 3px black;
+    
+}
+
+.addDef {
+    width: 20%;
+    height: 95px;
+    border: black 1px solid;
+    padding: 15px 0 0 15px;
+}
+.def {
+    padding: 3px 25px;
+    margin-top: 5px;
+    background: rgb(147, 196, 125);
+    box-shadow: 5px 3px 3px black;
+    
+}
